@@ -1,0 +1,6 @@
+<?xml version="1.0">
+<module='skeleton', 'bone'>
+<skeleton>
+<bone name="skeleton_003" identifier="bob" id="003" url="(none)" bin="../../tools/bin/">
+<bone id="003">
+</skeleton>

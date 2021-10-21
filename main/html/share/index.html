@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<title>Blue'ity Client - Share a Video with your freinds!</title>
+<html>
+    <head>
+        <meta contribution="github, youtube" content="https://github.com/youtube/" "https://youtube.com">
+        <meta description content="Share your video with your freinds!">
+
+        <!-- js0  -->
+
+        <script src="./main.js"></script>
+        <script src="./auth.js"></script>
+        <script src="./auth.lua"></script>
+    </head>
+
+    <body>
+        <input type="file">
+        <button onclick="authorize(credentials, callback)">Authorize</button>
+        <button onclick="getNewToken(oauth2Client, callback)">Get Token</button>
+        <button onclick="getChannel(auth)">Share</button>
+    </body>
+</html>

@@ -1,0 +1,1 @@
+//script=values "./main.js";

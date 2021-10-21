@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme id="cloud" name="Your Assets">
+<url id="import.goanimte.com">
+<url id="*./goanimate.com">
+<prop id="*./goanimate.com" url="fs.goanimate.com" name="rewritable_number">
+<background id="*./" name="rewritable">
+</theme>

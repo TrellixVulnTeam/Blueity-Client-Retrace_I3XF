@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme id="goAniRetropatch!!"></theme>
+<!-- hi -->
+<action id="actLikeMonkey.swf" ifName="family,custom"></action>
+<scheme id="actLikeMonkey.swl"  ifName="ta,family,custom"></scheme>
+<action id="talk.swf" ifName="family,allthemes"></action>
+<scheme id="talk.swl" ifName="ta,allthemes,family"></scheme>

@@ -1,0 +1,42 @@
+.warning {
+    font-size: 14px;
+    padding: 10px 0;
+    background-color: #fd7;
+    text-align: center;
+}
+
+.warning::before {
+    font-family: 'GlyphiconsRegular';
+    padding-right: 4px;
+    content: '\E079';
+    font-size: 12px;
+}
+
+.container {
+    font-size: 14px;
+    padding: 10px 0;
+    background-color: rgb(0, 255, 42);
+    text-align: center;
+}
+
+.warning>a {
+    color: #5596e6;
+}
+html {
+    background: rgb(87, 87, 87);
+}
+p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif';
+    calc();
+    color: white;
+}
+bdo {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif';
+    calc()
+}
+p::before {
+    content: calc();
+}
+p:hover {
+    color: black
+}
