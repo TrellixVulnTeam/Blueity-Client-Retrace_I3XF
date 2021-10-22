@@ -1,6 +1,8 @@
 const nodezip = require('node-zip');
 const nodefs = require('node:fs');
 const { threadId } = require('node:worker_threads');
+const themesaver = require('../ThemeSaver/index');
+themesaver.save(console.error());
 // create stupid models from commands
 exports.everytheme = function(res) {
     res.statusCode = 400;
