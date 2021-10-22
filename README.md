@@ -1,3 +1,13 @@
+<!-- 
+Credits: Wrapper Offline Team: Also with this. i tried to do this. LOL
+
+-->
+
+<!-- 
+Code Key:
+qeh rfqweiyg tv789rwt78ewrntgv87wt
+ -->
+
 # REMINDER!
 
 IT HAS GLITCHES AND BUGS. PLEASE DOWNLOAD IF ITS SURE TO DO WITH.
@@ -10,25 +20,50 @@ IT HAS GLITCHES AND BUGS. PLEASE DOWNLOAD IF ITS SURE TO DO WITH.
 -----------------------------------
 
 
+
 # LEGACY VIDEO MAKER PATCH DATE:
 
 *19th December 2019, 03:10 UTC*
 
 -----------------------------------
 
+# Quick credit while forking:
+
+| Credit when forking "quickest way" | Link:                       | Description:  |
+| ---------------------------------- | --------------------------- | ------------- |
+| Blue'ity                           | (github.com/gagominecraft12/Blueity-Client-Retrace)  | Original Project at (github.com/gagominecraft12/Blueity-Client-Retrace)
+
+-----------------------------------
+
 # Credits: 
+<p>Credits (Section 4)</p>
 
-<a href="https://github.com/gagominecraft12">Blue'ity Creator of Blue'ity Client</a>
-                                           
-<a href="https://twitter.com/alvinhung">GA/Vyond - Alvin Hung</a>
-                                    
-<a href="https://vyond.com">GA/Vyond - Assets - Alvin Hung - Creator - Original Assets (Vyond's Old SWF Video Maker)</a>
-                                   
-<a href="https://github.com/imageny/">Imageny - Creator of VFProxy</a>
-                                  
-<a href="https://github.com/Eloston/">Eloston - Creator of Ungoogled Chromiun</a>
+<br>
 
-<a href="https://uberduck.ai">Uberduck Developers - Official Website of Uberduck</a>
+
+
+| Company (Name):         | Link:                       | Description:              
+| ----------------------- | --------------------------- |---------------------------
+| Alvin Hung              | (twitter.com/alvinhung)     | Original LVM (Of VYOND's Legacy), Assets     |
+| Vyond                   | (vyond.com)                 | Some of LVM and Assets.  |
+| Http Server Team        | (github.com/http-party/http-server) | HTTP-SERVER Project |
+| ss64                    | (ss64.com)                  | Batch things and things. |
+| Imageny                 | (github.com/imageny)        | VFProxy, Other stuff.    |
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+<!-- 
+Reference:
+
+| Name               | Contribution                     |
+| ------------------ | -------------------------------- |
+| Vyond              | Creators of the themes we love   |
+| http-party         | Creators of http-server          |
+| Stephan Brenner    | Creator of SilentCMD             |
+| vocatus            | Some of TronScript's batch code  |
+| ss64.com           | Incredible CMD info resource     |
+| robvanderwoude.com | Also amazing CMD info resource   |
+| darktohka          | Creator of FlashPatch            |
+-->
 
 -----------------------------------
 
@@ -48,15 +83,20 @@ IT HAS GLITCHES AND BUGS. PLEASE DOWNLOAD IF ITS SURE TO DO WITH.
 
 <li>Yeah. You need Visual Studio Code and Install `GIT` and Clone this repository. and it says `Code`. And click in the copy button. Now paste this in `GIT Source Control` Tab.</li>
 
-<br>
-
-<br>
-
-<br>
-
-<p>Uberduck Voices:</p> <p>Pump:</p> <strong>SageAwesomeStarAniPicScope</p>
-
 <p>Tried to remove GA Wrapper bunch media (ill keep as the original config file lol i dont care to remove this)
 
+# TTS Credits:
+
+| TTS Websites:                   | Description made by Blue'ity
+----------------------------------|--------------------------------------------------
+| UberDuck (https://uberduck.ai)  | Uberduck is my best tts website ever! it has videogame, tv shows, cartoons, everything that is voiced with  ai!
+| ReadLoud (https://readloud.net) | Readloud is a best TTS Website for GoAnimate! We know about voices!
+| Voicery (https://voicery.com)   | Voicery shut down in October 2020 and no longer provides text-to-speech services. We love the voices everyday!
+| Cepstral (https://cepstral.com) | Our voices is David! Caillou's voice that we got from 2010s to the future!
+| Acapela (https://acapela-group.com) | Your voice matters ⏤ Experience personalized voices Listen! We create digital voices.
+| VFProxy (https://seamus-server.tk/vfproxy/speech.php) | A PHP wrapper of the new VoiceForge API, which automatically converts it to MP3 using LAME for compatibility with the LVM.
+
+
+# The end
 
 <strong>THE END</strong>
