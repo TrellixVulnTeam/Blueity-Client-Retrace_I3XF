@@ -37,18 +37,22 @@ IT HAS GLITCHES AND BUGS. PLEASE DOWNLOAD IF ITS SURE TO DO WITH.
 
 # Credits: 
 <p>Credits (Section 4)</p>
-
 <br>
 
 
 
+# Read for copyright owners who wants to understand this.
+
 | Company (Name):         | Link:                       | Description:              
 | ----------------------- | --------------------------- |---------------------------
-| Alvin Hung              | (twitter.com/alvinhung)     | Original LVM (Of VYOND's Legacy), Assets     |
-| Vyond                   | (vyond.com)                 | Some of LVM and Assets.  |
-| Http Server Team        | (github.com/http-party/http-server) | HTTP-SERVER Project |
-| ss64                    | (ss64.com)                  | Batch things and things. |
-| Imageny                 | (github.com/imageny)        | VFProxy, Other stuff.    |
+| Alvin Hung              | (https://twitter.com/alvinhung)     | Original LVM (Of VYOND's Legacy), Assets     |
+| Vyond                   | (https://vyond.com)                 | Some of LVM and Assets.  |
+| Http Server Team        | (https://github.com/http-party/http-server) | HTTP-SERVER Project |
+| ss64                    | (https://ss64.com)                  | Batch things and things. |
+| Imageny                 | (https://github.com/imageny)        | VFProxy, Other stuff.    |
+| VisualPlugin a.k.a Windows81 | (https://github.com/windows81) | Original things and OG GoAnimate Wrapper Project |
+| Adobe      | (https://adobe.com/) | Thanks for Adobe for crossdomain guide and animated custom assets, Everything|
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 
 <!-- 
@@ -95,7 +99,10 @@ Reference:
 | Cepstral (https://cepstral.com) | Our voices is David! Caillou's voice that we got from 2010s to the future!
 | Acapela (https://acapela-group.com) | Your voice matters ⏤ Experience personalized voices Listen! We create digital voices.
 | VFProxy (https://seamus-server.tk/vfproxy/speech.php) | A PHP wrapper of the new VoiceForge API, which automatically converts it to MP3 using LAME for compatibility with the LVM.
+| NextUP and IVONA Online TTS Websites | Our Voices are built-in robot! |
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 
+------------------------------------------------------------------------------------
 
 # The end
 

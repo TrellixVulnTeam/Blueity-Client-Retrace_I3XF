@@ -1,0 +1,3 @@
+function origin(res, req) {
+    
+}

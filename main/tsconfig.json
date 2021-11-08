@@ -8,6 +8,10 @@
     },
     "exclude": [
         "node_modules",
-        "**/node_modules/*"
+        "**/node_modules/*",
+        "main",
+        "**/main/",
+        "tools",
+        "**/tools/"
     ]
 }

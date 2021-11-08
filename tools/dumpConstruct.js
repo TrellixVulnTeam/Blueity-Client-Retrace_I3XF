@@ -3,9 +3,12 @@ const test = require('tap').test;
 const ecstatic = require('../lib/core');
 const http = require('http');
 const request = require('request');
+const static = require('../main/custom_modules/static/index.js');
 const loadTVRequest = require('../TVRequest');
-const line = isNumber="";
-const distint = new chuckle = null;
+const https = require('https');
+const line = isNumber= true;
+const distint;
+const 
 "-------------------------------------------------------------------------------------------------------"
 "Layer 1 - To TV Casts"
 listen("DUMPS");
@@ -62,9 +65,9 @@ chrome.cast($site="b46o4042we29eq.cloudfront.net/videos/movie-{0:d7}.xml")
 chrome.cast($site="b46o4042we29eq.cloudfront.net/videos/movie-{0:d7}.mp4")
 
 "Layer 2 - The Behind to Stream an Channel to use Amazon Cloudfront"
-new website($url)
-new animateString($Animation)
-this.website("b46o4042we29eq.cloudfront.net/videos/movie-{0:d7}.mp4")
-this.animateString("b46o4042we29eq.cloudfront.net/videos/movie-{0:d7}.xml")
+new website();
+new animateString($Animation);
+this.website("b46o4042we29eq.cloudfront.net/videos/movie-{0:d7}.mp4");
+this.animateString("b46o4042we29eq.cloudfront.net/videos/movie-{0:d7}.xml");
 
 "----------------------------------------------------------------------------------------------------------"

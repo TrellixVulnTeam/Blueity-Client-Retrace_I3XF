@@ -1,3 +1,6 @@
 title Blue'ity Client - Starting Neko
 :start
-start .\neko\nekoc.exe
+cd ..\main\
+if not exist ..\tools\neko\ 
+@REM Initialize Neko
+start ..\tools\neko\nekoc.exe

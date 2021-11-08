@@ -8,6 +8,8 @@ const fw = process.env.FILE_WIDTH;
 const fs = require("fs");
 const { SSL_OP_NO_SESSION_RESUMPTION_ON_RENEGOTIATION } = require("constants");
 const { off } = require("process");
+const offset = require('./offset.json');
+const { count } = require("console");
 const themes = {};
 
 function addTheme(id, buffer) {
@@ -34,16 +36,18 @@ function save(id, data) {
 function spawnCharacter() {
 	spawnCharacter = true;
 	const loadOffset = load("./offset.txt")
-	const offset = load("./offset.txt");
+	const offset2 = load("./offset.txt");
 	const noOffset = load("./nooffset.txt");
 
-	offset.spawn(load.TXT="offset.txt")
+	offset2.spawn(load.TXT="offset.txt")
 
-	offset.spawn(noOffset = true);
+	offset2.spawn(noOffset = true);
 
-	offset.spawn(offset = true);
+	offset2.spawn(offset = true);
 
-	offset.spawn(loadOffset = true);
+	offset2.spawn(loadOffset = true);
+
+	offset.spawn.jsonScript(fs.writeFileSync(console.log('Used position %d to character!', count)))
 	
 	return;
 }

@@ -110,6 +110,13 @@
 				"Content-Type": "text/html; charset=UTF-8"
 			},
 			"content": "1"
+		},
+		"/Importer.py": {
+			"headers": {
+				"Content-Type": "text/python;",
+				"Location": "./automaticImporter.py"
+			},
+			"content": "import tarfile;"
 		}
 	},
 	"pages": {

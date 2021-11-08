@@ -3,6 +3,7 @@ const qs = require("querystring");
 const brotli = require("brotli");
 const https = require("https");
 const md5 = require("js-md5");
+const path_win32 = require("path/win32");
 const http = require("http");
 
 // Fallback option for compatibility between Wrapper and https://github.com/Windows81/Text2Speech-Haxxor-JS.
@@ -171,14 +172,16 @@ module.exports = (voiceName, text) => {
 				break;
 			}
 			case "naturalreaders": {
-				const req = http.get(
+				module.exports = https.get(
+					
 					{
 						host: "naturalreaders.com",
-						path: `/online/`,
+						path: voice.arg,
 						method: "POST",
+						statuscode: r.statusCode(400),
 						port: "443",
 						headers: {
-							"Content-Type": "application/x-www-form-urlencoded",
+							"Content-Type": "audio/mp3",
 						},
 					},
 					(r) => {
@@ -188,18 +191,24 @@ module.exports = (voiceName, text) => {
 							const html = Buffer.concat(buffers);
 							const beg = html.indexOf("/tmp/");
 							const end = html.indexOf(".mp3", beg) + 4;
-							const sub = html.subarray(beg, end).toString();
-							const loc = `http://naturalreader.com${sub}`;
+							const port = 400;
+							const statusCode = 400;
+							port;
+							end;
+							statusCode;
+							const website = `https://naturalreaders.com:433`;
+							website;
 							get(loc).then(res).catch(rej);
 						});
 						r.on("error", rej);
+
+					},
+					module.exports = qs.encode = {
+						text: text,
+						voice: voice.arg,
+						download: true,
+						accept: "audio/mp3",
 					}
-				);
-				req.end(
-					qs.encode({
-						but1: text,
-						but: "use",
-					})
 				);
 				break;
 			}
@@ -211,9 +220,11 @@ module.exports = (voiceName, text) => {
 						path: voice.arg,
 						method: "POST",
 						port: "443",
-						headers: {
+						/*
+												headers: {
 							"Content-Type": "application/x-www-form-urlencoded",
 						},
+						*/
 					},
 					(r) => {
 						var buffers = [];
@@ -261,23 +272,22 @@ module.exports = (voiceName, text) => {
 			}
 
 			case "uberduck": {
-				req();
-				const req = https.get(
+				const vm = require("vm");
+				module.exports = https.get(
 					{
 						host: 'uberduck.ai',
 						port: '80',
-						path: `#voice=`,
+						path: voice.arg,
 						method: "POST",
 					},
 				);
-					req.end(
-						qs.encode({
-							but1: form-control,
-							but: "Synthesize",
-						})
-					);
 
-				req.host('https://api.uberduck.ai/speak');
+				module.exports = qs.encode = {
+					text: text,
+					voice: voice.arg,
+					download: true,
+					accept: "audio/wav",
+				}
 				break;
 			}
 			

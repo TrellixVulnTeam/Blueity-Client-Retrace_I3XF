@@ -1,0 +1,18 @@
+{
+    "query": {
+        "youtubeur": "https://www.youtube.com/watch?v=LXr_3tnc7vg",
+        "youtubeur2": "https://www.youtube.com/watch?v=KL-FBKPrg-c",
+        "youtubeur3": "https://www.youtube.com/watch?v=qFBG_jkHYMg"
+    },
+    "javascript": {
+        "FOLDER_TYPE": ".js",
+        "CODE": "const jsmd5 = require('js-md5'); if (detonatedURI) { } } else } { }"
+    },
+    "POST": {
+        "/queryVersion/v0.json": {
+            "statuscode": "400",
+            "type": "application/json",
+            "content": "{ 'VERSION': {  } }"
+        }
+    }
+}

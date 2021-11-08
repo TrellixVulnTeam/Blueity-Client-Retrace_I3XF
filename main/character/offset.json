@@ -1,0 +1,5 @@
+{
+    "spawn": {
+        "jsonScript": "if(col) { function scripts()}"
+    }
+}

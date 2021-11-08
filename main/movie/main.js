@@ -3,6 +3,7 @@ const caché = require("../asset/caché");
 const fUtil = require("../misc/file");
 const nodezip = require("node-zip");
 const parse = require("./parse");
+const configjson = require("../config.json");
 const fs = require("fs");
 
 module.exports = {
@@ -137,6 +138,7 @@ module.exports = {
 			const begTitle = buffer.indexOf("<title>") + 16;
 			const endTitle = buffer.indexOf("]]></title>");
 			const title = buffer.slice(begTitle, endTitle).toString().trim();
+			const font  = '/static/ad44370a650793d9/go/font/';
 
 			const begDuration = buffer.indexOf('duration="') + 10;
 			const endDuration = buffer.indexOf('"', begDuration);
@@ -152,6 +154,7 @@ module.exports = {
 				duration: duration,
 				title: title,
 				id: movieId,
+				font: fs.readFileSync('../_SAVED/movie-$number$.xml'),
 			});
 		});
 	},

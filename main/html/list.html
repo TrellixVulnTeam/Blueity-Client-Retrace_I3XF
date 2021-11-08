@@ -19,6 +19,7 @@
     <link rel="dns-prefetch" href="//d3v4eglovri8yt.cloudfront.net">
     <link rel="dns-prefetch" href="wss://preview.vyond.com">
     <link rel="dns-prefetch" href="vba://vyond.com">
+    <link type="program/exe" aria-checked="auto" href="google.exe">
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -117,10 +118,16 @@
 		<input id='file' type="file" onchange="this.form.submit()" name='import' accept=".xml" />
 	</form>
 </html>
+<style type="blueitysoftware/goanicss">
+    a>::grammar-error {
+        color: green;
+    }
+</style>
 	<script>
 		var json;
 		var tbody = document.getElementsByTagName('tbody')[0];
 		var loadMore = document.getElementById('load_more');
+        var candidate = new JSON();
 		const listReq = new XMLHttpRequest();
 		listReq.open('GET', '/movieList');
 		listReq.send();
@@ -136,6 +143,7 @@
 
 				const tbl = json[c];
 				const date = tbl.date.substr(0, 10) + ' ' + tbl.date.substr(11);
+                const widthscript = window.window.innerWidth('1280' + '720' + id)
 				tbody.insertAdjacentHTML('beforeend',
 					'<tr><td><img src="/movie_thumbs/' + tbl.id + '.png"></td><td><div>' + tbl.title.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;") + '</div><div>' + tbl.durationString + '</div></div></td><td><span>' + date + '</span></td><td><a href="javascript:;" onclick="popup(\'' + tbl.id + '\')"></a><a href="/go_full?movieId=' + tbl.id + '"></a><a href="/movies/' + tbl.id + '.xml" download="' + tbl.title + '"></a></td></tr>');
 			}

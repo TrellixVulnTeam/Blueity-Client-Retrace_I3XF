@@ -2,9 +2,9 @@ wait(20)
 
 dofile("./theme");
 
-local theme bit.arshift(x, n)
+local theme = bit.arshift(x, n)
 
-local package = urlRequest("url=http://127.0.0.1:1200/movies/movie-$NUMBER$.xml")
+local package = nil;
 
 "./projectWrapper.cs" require(".swf, .xml, .cs")
 package("node")
