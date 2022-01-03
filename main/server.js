@@ -22,9 +22,14 @@ const thL = require("./theme/list");
 const thl = require("./theme/load");
 const tsv = require("./tts/voices");
 const tsl = require("./tts/load");
+const xej = require("./static/x.env");
+const prm = require("./preview/main");
+const prl = require("./preview/load");
+const prs = require("./preview/save");
 const url = require("url");
+const { Stream } = require("stream");
 
-const functions = [mvL, pmc, asl, chl, thl, thL, chs, cht, asL, tsl, chr, ast, mvm, mvl, mvs, mvt, tsv, asu, mvu, stp, stl];
+const functions = [mvL, pmc, asl, chl, thl, thL, chs, cht, asL, tsl, chr, ast, mvm, mvl, mvs, mvt, tsv, asu, mvu, stp, stl, xej, prm, prs, prl];
 
 module.exports = http
 	.createServer((req, res) => {

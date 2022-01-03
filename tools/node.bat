@@ -1,10 +1,10 @@
+
 :: Disables spam
 @echo off && cls
 
 set IDLE=Node started!
 set IDLE2=Starting Node
 title Blue'ity Client - %IDLE2%
-
 @REM Check for programs
 if not exist node.exe (
     echo Node Loaded!

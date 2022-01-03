@@ -1,2 +1,2 @@
 const fs = require('node:fs');
-fs.writeFile('../contents/txt/DISCLAIMER.txt')
+fs.writeFile('../contents/txt/DISCLAIMER.txt');

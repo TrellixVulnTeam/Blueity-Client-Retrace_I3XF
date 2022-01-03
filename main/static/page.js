@@ -1,6 +1,7 @@
 const fUtil = require("../misc/file");
 const stuff = require("./info");
 const http = require("http");
+const { nextTick } = require("process");
 
 function toAttrString(table) {
 	return typeof table == "object"
@@ -27,6 +28,59 @@ function toObjectString(attrs, params) {
  * @param {import("url").UrlWithParsedQuery} url
  * @returns {boolean}
  */
+ var videomaker = function(req, req, url) {
+    switch (url.pathname) {
+        case '/go_full':
+            let presave =
+				query.movieId && query.movieId.startsWith("m")
+					? query.movieId
+					: `m-${fUtil[query.noAutosave ? "getNextFileId" : "fillNextFileId"]("movie-", ".xml")}`;
+			title = "Video Editor";
+			attrs = {
+				data: process.env.SWF_URL + "/go_full.swf",
+				type: "application/x-shockwave-flash",
+				width: "100%",
+				height: "100%",
+			};
+			params = {
+				flashvars: {
+					apiserver: "/",
+					storePath: process.env.STORE_URL + "/<store>",
+					isEmbed: 1,
+					ctc: "go",
+					ut: 50,
+					bs: "default",
+					appCode: "go",
+					page: "",
+					siteId: "go",
+					lid: 13,
+					isLogin: "Y",
+					retut: 1,
+					clientThemePath: process.env.CLIENT_URL + "/<client_theme>",
+					themeId: "business",
+					tlang: "en_US",
+					presaveId: presave,
+					goteam_draft_only: 1,
+					isWide: 1,
+					collab: 0,
+					nextUrl: "/html/list.html",
+				},
+				allowScriptAccess: "always",
+			};
+            break;
+    }
+}
+var loadtime = function() {
+	console.log("Ping time at:", "", Math.round(this),
+		videomaker(
+			console.timeLog(process.videomaker(Math.round(process.videomaker.nextTick(Math.random())))),
+			{
+				time: nextTick
+			}
+		)
+	)
+}
+
 module.exports = function (req, res, url) {
 	if (req.method != "GET") return;
 	const query = url.query;
@@ -132,10 +186,11 @@ module.exports = function (req, res, url) {
 					goteam_draft_only: 1,
 					isWide: 1,
 					collab: 0,
+					retry: loadtime,
 					nextUrl: "/html/list.html",
 				},
 				allowScriptAccess: "always",
-			};
+			} ;
 			break;
 		}
 

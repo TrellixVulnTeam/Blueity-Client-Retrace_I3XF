@@ -1,1 +1,5 @@
-console.log('Time:', Date.now());
+Datefunctioner();
+
+function Datefunctioner() {
+    console.log('Time:', Date.now());
+}

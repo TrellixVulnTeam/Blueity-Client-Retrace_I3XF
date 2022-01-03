@@ -15,7 +15,7 @@ if not exist node.exe (
     ping -n 5 127.0.0.1 >nul
     start "" "nodejs.org"
 )
-)
+)                     
 
 
 echo Open the "./tools" folder. and open the "node.bat" and the "http_server-2.bat" and the "vfproxy.bat" to launch the Optomized Version.

@@ -12,6 +12,6 @@
         "main",
         "**/main/",
         "tools",
-        "**/tools/"
-    ]
+        "**/tools/*"
+    ]/* hi */
 }
