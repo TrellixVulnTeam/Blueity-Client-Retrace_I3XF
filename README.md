@@ -8,6 +8,8 @@ Code Key:
 qeh rfqweiyg tv789rwt78ewrntgv87wt
  -->
 
+[![Node.js CI](https://github.com/gagominecraft12/Blueity-Client-Retrace/actions/workflows/node.js.yml/badge.svg?branch=master)](https://github.com/gagominecraft12/Blueity-Client-Retrace/actions/workflows/node.js.yml)
+
 # REMINDER!
 
 IT HAS GLITCHES AND BUGS. PLEASE DOWNLOAD IF ITS SURE TO DO WITH.
